@@ -9,6 +9,7 @@ import { TrendingProvider } from "../context/TrendingContext";
 const Home = () => {
   return (
     <CryptoProvider>
+      <h1>Making a Trail</h1>
       <TrendingProvider>
         <StorageProvider>
           <main
